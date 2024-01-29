@@ -1,0 +1,28 @@
+.app-container {
+  text-align: center;
+  margin: 20px;
+  display: flex;
+  align-items: center;
+}
+
+canvas {
+  max-width: 50%;
+  height: auto;
+}
+
+#text {
+  margin-top: 20px;
+}
+
+#spin_btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 18px;
+}
+
+/* Media Query for smaller screens */
+@media only screen and (max-width: 600px) {
+  canvas {
+    width: 100%;
+  }
+}
